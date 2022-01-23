@@ -8,6 +8,28 @@ body {
   background-color: rgb(68, 115, 143);
   display: flex;
   flex-direction: column;
+  
+}
+.cart1
+{
+  border-style: double;
+  border-radius: 5px;
+}
+.cart2
+{
+  border-style: double;
+  border-radius: 5px;
+}
+.cart3
+{
+  border-style: double;
+  border-radius: 5px;
+}
+.Education {
+  display: flex;
+  flex-direction: row;
+  background-color: #5390c2;
+  justify-content: space-around;
 }
 h2 {
   margin: 35px;
