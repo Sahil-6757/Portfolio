@@ -27,9 +27,13 @@ body {
 }
 .Education {
   display: flex;
-  flex-direction: row;
+  flex-direction: col;
   background-color: #5390c2;
   justify-content: space-around;
+}
+.heading
+{
+  
 }
 h2 {
   margin: 35px;
@@ -121,6 +125,7 @@ li {
   justify-content: center;
   background-color: green;
 }
+
 .home {
   margin-top: 43px;
   display: flex;
