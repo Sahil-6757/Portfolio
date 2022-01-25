@@ -1,11 +1,6 @@
-let a = document.getElementById('textbox1');
-let b = document.getElementById('textbox2');
-let c = document.getElementById('textbox3');
-function wake()
+console.log("Hello World.");
+function alert()
 {
-  let para = document.getElementById('message');
-  c.innerText= a.innerText+b.innerText;
-  para.innerText = c;
-
-  console.log(para);
+ let name = document.getElementById("exampleFormControlInput1").value;
+ alert("asdf"+name);
 }

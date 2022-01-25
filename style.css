@@ -8,32 +8,35 @@ body {
   background-color: rgb(68, 115, 143);
   display: flex;
   flex-direction: column;
-  
 }
-.cart1
-{
+.cards {
+  display: flex;
+  flex-direction: row;
+  background-color: #5390c2;
+  justify-content: space-around;
+}
+.cart1 {
   border-style: double;
   border-radius: 5px;
 }
-.cart2
-{
+.cart2 {
   border-style: double;
   border-radius: 5px;
 }
-.cart3
-{
+.cart3 {
   border-style: double;
   border-radius: 5px;
 }
 .Education {
-  display: flex;
-  flex-direction: col;
   background-color: #5390c2;
-  justify-content: space-around;
 }
-.heading
-{
-  
+.Education h2 {
+  color: whitesmoke;
+  justify-content: center;
+  display: flex;
+  font-size: 68px;
+  margin-top: -10px;
+  margin-bottom: -15px;
 }
 h2 {
   margin: 35px;
@@ -104,6 +107,14 @@ li {
   font-size: 20px;
 }
 #exampleFormControlTextarea1 {
+  width: 50%;
+  margin-left: 57px;
+}
+#exampleFormControlTextarea2 {
+  width: 50%;
+  margin-left: 57px;
+}
+#exampleFormControlTextarea3 {
   width: 50%;
   margin-left: 57px;
 }
