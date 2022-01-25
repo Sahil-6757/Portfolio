@@ -23,6 +23,53 @@ body {
   text-align: center;
   border-style: solid;
 }
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #602960;
+}
+progress {
+  margin-top: -13px;
+  width: 70%;
+}
+
+#HTML_label {
+  color: #5390c2;
+  font-size: 45px;
+}
+#CSS_label {
+  color: #5390c2;
+  font-size: 45px;
+}
+#Javascript_label {
+  color: #5390c2;
+  font-size: 45px;
+}
+#Csharp_label {
+  color: #5390c2;
+  font-size: 45px;
+}
+#C_label {
+  color: #5390c2;
+  font-size: 45px;
+}
+#Cpp_label {
+  color: #5390c2;
+  font-size: 45px;
+}
+#Aspnet_label {
+  color: #5390c2;
+  font-size: 45px;
+}
+#SQL_label {
+  color: #5390c2;
+  font-size: 45px;
+}
+#Java_label {
+  color: #5390c2;
+  font-size: 45px;
+}
 .cart2 {
   border-style: double;
   border-radius: 5px;
@@ -136,11 +183,6 @@ li {
 .form-label {
   color: whitesmoke;
   font-size: 35px;
-}
-.skills {
-  display: flex;
-  background-color: violet;
-  justify-content: center;
 }
 .study {
   display: flex;
